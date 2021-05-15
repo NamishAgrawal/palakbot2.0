@@ -18,7 +18,7 @@ client.on('message', message =>{
     if(message.content.includes('@everyone') && message.member.roles.cache.has(process.env.palak_role))
     {
       if(!message.member.roles.cache.has(process.env.bad_ping_role)){
-            message.channel.send('laude ping mat maar');
+            message.channel.send('stop pinging!');
             badPings--;
             message.channel.send('You ony have '+badPings +' pings left before you cant ping everyone again');
           console.log('bad pings=' + badPings);
