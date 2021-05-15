@@ -1,0 +1,16 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "palak removal",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "namish",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-bot-api": "^2.0.5",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2"
+  }
+}
